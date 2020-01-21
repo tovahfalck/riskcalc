@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  RiskGameOdds
 //
-//  Created by Tovah Falck on 11/30/19.
-//  Copyright © 2019 Tovah Falck. All rights reserved.
+//  Created by Tovah Falck on 1/21/20.
+//  Copyright © 2020 Tovah Falck. All rights reserved.
 //
 
 import UIKit

@@ -7,66 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E7D9BC3A2393071000DD7B12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D9BC392393071000DD7B12 /* AppDelegate.swift */; };
-		E7D9BC3C2393071000DD7B12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D9BC3B2393071000DD7B12 /* SceneDelegate.swift */; };
-		E7D9BC3E2393071000DD7B12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D9BC3D2393071000DD7B12 /* ContentView.swift */; };
-		E7D9BC402393071000DD7B12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7D9BC3F2393071000DD7B12 /* Assets.xcassets */; };
-		E7D9BC432393071000DD7B12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7D9BC422393071000DD7B12 /* Preview Assets.xcassets */; };
-		E7D9BC462393071000DD7B12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D9BC442393071000DD7B12 /* LaunchScreen.storyboard */; };
-		E7D9BC512393071100DD7B12 /* RiskGameOddsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D9BC502393071100DD7B12 /* RiskGameOddsTests.swift */; };
-		E7D9BC5C2393071100DD7B12 /* RiskGameOddsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D9BC5B2393071100DD7B12 /* RiskGameOddsUITests.swift */; };
+		E746391323D7ACE700AC0810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E746391223D7ACE700AC0810 /* AppDelegate.swift */; };
+		E746391523D7ACE700AC0810 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E746391423D7ACE700AC0810 /* SceneDelegate.swift */; };
+		E746391723D7ACE700AC0810 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E746391623D7ACE700AC0810 /* ViewController.swift */; };
+		E746391A23D7ACE700AC0810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E746391823D7ACE700AC0810 /* Main.storyboard */; };
+		E746391C23D7ACE800AC0810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E746391B23D7ACE800AC0810 /* Assets.xcassets */; };
+		E746391F23D7ACE800AC0810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E746391D23D7ACE800AC0810 /* LaunchScreen.storyboard */; };
+		E746392A23D7ACE800AC0810 /* RiskGameOddsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E746392923D7ACE800AC0810 /* RiskGameOddsTests.swift */; };
+		E746393523D7ACE800AC0810 /* RiskGameOddsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E746393423D7ACE800AC0810 /* RiskGameOddsUITests.swift */; };
+		E746394323D7AE6F00AC0810 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = E746394223D7AE6F00AC0810 /* Node.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E7D9BC4D2393071100DD7B12 /* PBXContainerItemProxy */ = {
+		E746392623D7ACE800AC0810 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E7D9BC2E2393070F00DD7B12 /* Project object */;
+			containerPortal = E746390723D7ACE700AC0810 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E7D9BC352393070F00DD7B12;
+			remoteGlobalIDString = E746390E23D7ACE700AC0810;
 			remoteInfo = RiskGameOdds;
 		};
-		E7D9BC582393071100DD7B12 /* PBXContainerItemProxy */ = {
+		E746393123D7ACE800AC0810 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E7D9BC2E2393070F00DD7B12 /* Project object */;
+			containerPortal = E746390723D7ACE700AC0810 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E7D9BC352393070F00DD7B12;
+			remoteGlobalIDString = E746390E23D7ACE700AC0810;
 			remoteInfo = RiskGameOdds;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E7D9BC362393071000DD7B12 /* RiskGameOdds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RiskGameOdds.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7D9BC392393071000DD7B12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E7D9BC3B2393071000DD7B12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E7D9BC3D2393071000DD7B12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E7D9BC3F2393071000DD7B12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E7D9BC422393071000DD7B12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E7D9BC452393071000DD7B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E7D9BC472393071000DD7B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E7D9BC4C2393071100DD7B12 /* RiskGameOddsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiskGameOddsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7D9BC502393071100DD7B12 /* RiskGameOddsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskGameOddsTests.swift; sourceTree = "<group>"; };
-		E7D9BC522393071100DD7B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E7D9BC572393071100DD7B12 /* RiskGameOddsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiskGameOddsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7D9BC5B2393071100DD7B12 /* RiskGameOddsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskGameOddsUITests.swift; sourceTree = "<group>"; };
-		E7D9BC5D2393071100DD7B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E746390F23D7ACE700AC0810 /* RiskGameOdds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RiskGameOdds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E746391223D7ACE700AC0810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E746391423D7ACE700AC0810 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E746391623D7ACE700AC0810 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E746391923D7ACE700AC0810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E746391B23D7ACE800AC0810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E746391E23D7ACE800AC0810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E746392023D7ACE800AC0810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E746392523D7ACE800AC0810 /* RiskGameOddsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiskGameOddsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E746392923D7ACE800AC0810 /* RiskGameOddsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskGameOddsTests.swift; sourceTree = "<group>"; };
+		E746392B23D7ACE800AC0810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E746393023D7ACE800AC0810 /* RiskGameOddsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiskGameOddsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E746393423D7ACE800AC0810 /* RiskGameOddsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskGameOddsUITests.swift; sourceTree = "<group>"; };
+		E746393623D7ACE800AC0810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E746394223D7AE6F00AC0810 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E7D9BC332393070F00DD7B12 /* Frameworks */ = {
+		E746390C23D7ACE700AC0810 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E7D9BC492393071100DD7B12 /* Frameworks */ = {
+		E746392223D7ACE800AC0810 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E7D9BC542393071100DD7B12 /* Frameworks */ = {
+		E746392D23D7ACE800AC0810 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,62 +78,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E7D9BC2D2393070F00DD7B12 = {
+		E746390623D7ACE700AC0810 = {
 			isa = PBXGroup;
 			children = (
-				E7D9BC382393071000DD7B12 /* RiskGameOdds */,
-				E7D9BC4F2393071100DD7B12 /* RiskGameOddsTests */,
-				E7D9BC5A2393071100DD7B12 /* RiskGameOddsUITests */,
-				E7D9BC372393071000DD7B12 /* Products */,
+				E746391123D7ACE700AC0810 /* RiskGameOdds */,
+				E746392823D7ACE800AC0810 /* RiskGameOddsTests */,
+				E746393323D7ACE800AC0810 /* RiskGameOddsUITests */,
+				E746391023D7ACE700AC0810 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E7D9BC372393071000DD7B12 /* Products */ = {
+		E746391023D7ACE700AC0810 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E7D9BC362393071000DD7B12 /* RiskGameOdds.app */,
-				E7D9BC4C2393071100DD7B12 /* RiskGameOddsTests.xctest */,
-				E7D9BC572393071100DD7B12 /* RiskGameOddsUITests.xctest */,
+				E746390F23D7ACE700AC0810 /* RiskGameOdds.app */,
+				E746392523D7ACE800AC0810 /* RiskGameOddsTests.xctest */,
+				E746393023D7ACE800AC0810 /* RiskGameOddsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E7D9BC382393071000DD7B12 /* RiskGameOdds */ = {
+		E746391123D7ACE700AC0810 /* RiskGameOdds */ = {
 			isa = PBXGroup;
 			children = (
-				E7D9BC392393071000DD7B12 /* AppDelegate.swift */,
-				E7D9BC3B2393071000DD7B12 /* SceneDelegate.swift */,
-				E7D9BC3D2393071000DD7B12 /* ContentView.swift */,
-				E7D9BC3F2393071000DD7B12 /* Assets.xcassets */,
-				E7D9BC442393071000DD7B12 /* LaunchScreen.storyboard */,
-				E7D9BC472393071000DD7B12 /* Info.plist */,
-				E7D9BC412393071000DD7B12 /* Preview Content */,
+				E746391223D7ACE700AC0810 /* AppDelegate.swift */,
+				E746391423D7ACE700AC0810 /* SceneDelegate.swift */,
+				E746391623D7ACE700AC0810 /* ViewController.swift */,
+				E746391823D7ACE700AC0810 /* Main.storyboard */,
+				E746391B23D7ACE800AC0810 /* Assets.xcassets */,
+				E746391D23D7ACE800AC0810 /* LaunchScreen.storyboard */,
+				E746392023D7ACE800AC0810 /* Info.plist */,
+				E746394223D7AE6F00AC0810 /* Node.swift */,
 			);
 			path = RiskGameOdds;
 			sourceTree = "<group>";
 		};
-		E7D9BC412393071000DD7B12 /* Preview Content */ = {
+		E746392823D7ACE800AC0810 /* RiskGameOddsTests */ = {
 			isa = PBXGroup;
 			children = (
-				E7D9BC422393071000DD7B12 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		E7D9BC4F2393071100DD7B12 /* RiskGameOddsTests */ = {
-			isa = PBXGroup;
-			children = (
-				E7D9BC502393071100DD7B12 /* RiskGameOddsTests.swift */,
-				E7D9BC522393071100DD7B12 /* Info.plist */,
+				E746392923D7ACE800AC0810 /* RiskGameOddsTests.swift */,
+				E746392B23D7ACE800AC0810 /* Info.plist */,
 			);
 			path = RiskGameOddsTests;
 			sourceTree = "<group>";
 		};
-		E7D9BC5A2393071100DD7B12 /* RiskGameOddsUITests */ = {
+		E746393323D7ACE800AC0810 /* RiskGameOddsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				E7D9BC5B2393071100DD7B12 /* RiskGameOddsUITests.swift */,
-				E7D9BC5D2393071100DD7B12 /* Info.plist */,
+				E746393423D7ACE800AC0810 /* RiskGameOddsUITests.swift */,
+				E746393623D7ACE800AC0810 /* Info.plist */,
 			);
 			path = RiskGameOddsUITests;
 			sourceTree = "<group>";
@@ -139,13 +134,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E7D9BC352393070F00DD7B12 /* RiskGameOdds */ = {
+		E746390E23D7ACE700AC0810 /* RiskGameOdds */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7D9BC602393071100DD7B12 /* Build configuration list for PBXNativeTarget "RiskGameOdds" */;
+			buildConfigurationList = E746393923D7ACE800AC0810 /* Build configuration list for PBXNativeTarget "RiskGameOdds" */;
 			buildPhases = (
-				E7D9BC322393070F00DD7B12 /* Sources */,
-				E7D9BC332393070F00DD7B12 /* Frameworks */,
-				E7D9BC342393070F00DD7B12 /* Resources */,
+				E746390B23D7ACE700AC0810 /* Sources */,
+				E746390C23D7ACE700AC0810 /* Frameworks */,
+				E746390D23D7ACE700AC0810 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -153,69 +148,69 @@
 			);
 			name = RiskGameOdds;
 			productName = RiskGameOdds;
-			productReference = E7D9BC362393071000DD7B12 /* RiskGameOdds.app */;
+			productReference = E746390F23D7ACE700AC0810 /* RiskGameOdds.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E7D9BC4B2393071100DD7B12 /* RiskGameOddsTests */ = {
+		E746392423D7ACE800AC0810 /* RiskGameOddsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7D9BC632393071100DD7B12 /* Build configuration list for PBXNativeTarget "RiskGameOddsTests" */;
+			buildConfigurationList = E746393C23D7ACE800AC0810 /* Build configuration list for PBXNativeTarget "RiskGameOddsTests" */;
 			buildPhases = (
-				E7D9BC482393071100DD7B12 /* Sources */,
-				E7D9BC492393071100DD7B12 /* Frameworks */,
-				E7D9BC4A2393071100DD7B12 /* Resources */,
+				E746392123D7ACE800AC0810 /* Sources */,
+				E746392223D7ACE800AC0810 /* Frameworks */,
+				E746392323D7ACE800AC0810 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E7D9BC4E2393071100DD7B12 /* PBXTargetDependency */,
+				E746392723D7ACE800AC0810 /* PBXTargetDependency */,
 			);
 			name = RiskGameOddsTests;
 			productName = RiskGameOddsTests;
-			productReference = E7D9BC4C2393071100DD7B12 /* RiskGameOddsTests.xctest */;
+			productReference = E746392523D7ACE800AC0810 /* RiskGameOddsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E7D9BC562393071100DD7B12 /* RiskGameOddsUITests */ = {
+		E746392F23D7ACE800AC0810 /* RiskGameOddsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7D9BC662393071100DD7B12 /* Build configuration list for PBXNativeTarget "RiskGameOddsUITests" */;
+			buildConfigurationList = E746393F23D7ACE800AC0810 /* Build configuration list for PBXNativeTarget "RiskGameOddsUITests" */;
 			buildPhases = (
-				E7D9BC532393071100DD7B12 /* Sources */,
-				E7D9BC542393071100DD7B12 /* Frameworks */,
-				E7D9BC552393071100DD7B12 /* Resources */,
+				E746392C23D7ACE800AC0810 /* Sources */,
+				E746392D23D7ACE800AC0810 /* Frameworks */,
+				E746392E23D7ACE800AC0810 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E7D9BC592393071100DD7B12 /* PBXTargetDependency */,
+				E746393223D7ACE800AC0810 /* PBXTargetDependency */,
 			);
 			name = RiskGameOddsUITests;
 			productName = RiskGameOddsUITests;
-			productReference = E7D9BC572393071100DD7B12 /* RiskGameOddsUITests.xctest */;
+			productReference = E746393023D7ACE800AC0810 /* RiskGameOddsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E7D9BC2E2393070F00DD7B12 /* Project object */ = {
+		E746390723D7ACE700AC0810 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1120;
-				LastUpgradeCheck = 1120;
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Tovah Falck";
 				TargetAttributes = {
-					E7D9BC352393070F00DD7B12 = {
-						CreatedOnToolsVersion = 11.2.1;
+					E746390E23D7ACE700AC0810 = {
+						CreatedOnToolsVersion = 11.3.1;
 					};
-					E7D9BC4B2393071100DD7B12 = {
-						CreatedOnToolsVersion = 11.2.1;
-						TestTargetID = E7D9BC352393070F00DD7B12;
+					E746392423D7ACE800AC0810 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = E746390E23D7ACE700AC0810;
 					};
-					E7D9BC562393071100DD7B12 = {
-						CreatedOnToolsVersion = 11.2.1;
-						TestTargetID = E7D9BC352393070F00DD7B12;
+					E746392F23D7ACE800AC0810 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = E746390E23D7ACE700AC0810;
 					};
 				};
 			};
-			buildConfigurationList = E7D9BC312393070F00DD7B12 /* Build configuration list for PBXProject "RiskGameOdds" */;
+			buildConfigurationList = E746390A23D7ACE700AC0810 /* Build configuration list for PBXProject "RiskGameOdds" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,37 +218,37 @@
 				en,
 				Base,
 			);
-			mainGroup = E7D9BC2D2393070F00DD7B12;
-			productRefGroup = E7D9BC372393071000DD7B12 /* Products */;
+			mainGroup = E746390623D7ACE700AC0810;
+			productRefGroup = E746391023D7ACE700AC0810 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E7D9BC352393070F00DD7B12 /* RiskGameOdds */,
-				E7D9BC4B2393071100DD7B12 /* RiskGameOddsTests */,
-				E7D9BC562393071100DD7B12 /* RiskGameOddsUITests */,
+				E746390E23D7ACE700AC0810 /* RiskGameOdds */,
+				E746392423D7ACE800AC0810 /* RiskGameOddsTests */,
+				E746392F23D7ACE800AC0810 /* RiskGameOddsUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E7D9BC342393070F00DD7B12 /* Resources */ = {
+		E746390D23D7ACE700AC0810 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7D9BC462393071000DD7B12 /* LaunchScreen.storyboard in Resources */,
-				E7D9BC432393071000DD7B12 /* Preview Assets.xcassets in Resources */,
-				E7D9BC402393071000DD7B12 /* Assets.xcassets in Resources */,
+				E746391F23D7ACE800AC0810 /* LaunchScreen.storyboard in Resources */,
+				E746391C23D7ACE800AC0810 /* Assets.xcassets in Resources */,
+				E746391A23D7ACE700AC0810 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E7D9BC4A2393071100DD7B12 /* Resources */ = {
+		E746392323D7ACE800AC0810 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E7D9BC552393071100DD7B12 /* Resources */ = {
+		E746392E23D7ACE800AC0810 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -263,52 +258,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E7D9BC322393070F00DD7B12 /* Sources */ = {
+		E746390B23D7ACE700AC0810 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7D9BC3A2393071000DD7B12 /* AppDelegate.swift in Sources */,
-				E7D9BC3C2393071000DD7B12 /* SceneDelegate.swift in Sources */,
-				E7D9BC3E2393071000DD7B12 /* ContentView.swift in Sources */,
+				E746391723D7ACE700AC0810 /* ViewController.swift in Sources */,
+				E746391323D7ACE700AC0810 /* AppDelegate.swift in Sources */,
+				E746391523D7ACE700AC0810 /* SceneDelegate.swift in Sources */,
+				E746394323D7AE6F00AC0810 /* Node.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E7D9BC482393071100DD7B12 /* Sources */ = {
+		E746392123D7ACE800AC0810 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7D9BC512393071100DD7B12 /* RiskGameOddsTests.swift in Sources */,
+				E746392A23D7ACE800AC0810 /* RiskGameOddsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E7D9BC532393071100DD7B12 /* Sources */ = {
+		E746392C23D7ACE800AC0810 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7D9BC5C2393071100DD7B12 /* RiskGameOddsUITests.swift in Sources */,
+				E746393523D7ACE800AC0810 /* RiskGameOddsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E7D9BC4E2393071100DD7B12 /* PBXTargetDependency */ = {
+		E746392723D7ACE800AC0810 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E7D9BC352393070F00DD7B12 /* RiskGameOdds */;
-			targetProxy = E7D9BC4D2393071100DD7B12 /* PBXContainerItemProxy */;
+			target = E746390E23D7ACE700AC0810 /* RiskGameOdds */;
+			targetProxy = E746392623D7ACE800AC0810 /* PBXContainerItemProxy */;
 		};
-		E7D9BC592393071100DD7B12 /* PBXTargetDependency */ = {
+		E746393223D7ACE800AC0810 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E7D9BC352393070F00DD7B12 /* RiskGameOdds */;
-			targetProxy = E7D9BC582393071100DD7B12 /* PBXContainerItemProxy */;
+			target = E746390E23D7ACE700AC0810 /* RiskGameOdds */;
+			targetProxy = E746393123D7ACE800AC0810 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E7D9BC442393071000DD7B12 /* LaunchScreen.storyboard */ = {
+		E746391823D7ACE700AC0810 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E7D9BC452393071000DD7B12 /* Base */,
+				E746391923D7ACE700AC0810 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E746391D23D7ACE800AC0810 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E746391E23D7ACE800AC0810 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +320,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E7D9BC5E2393071100DD7B12 /* Debug */ = {
+		E746393723D7ACE800AC0810 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +380,7 @@
 			};
 			name = Debug;
 		};
-		E7D9BC5F2393071100DD7B12 /* Release */ = {
+		E746393823D7ACE800AC0810 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,13 +434,11 @@
 			};
 			name = Release;
 		};
-		E7D9BC612393071100DD7B12 /* Debug */ = {
+		E746393A23D7ACE800AC0810 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"RiskGameOdds/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = RiskGameOdds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,13 +451,11 @@
 			};
 			name = Debug;
 		};
-		E7D9BC622393071100DD7B12 /* Release */ = {
+		E746393B23D7ACE800AC0810 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"RiskGameOdds/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = RiskGameOdds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -468,7 +468,7 @@
 			};
 			name = Release;
 		};
-		E7D9BC642393071100DD7B12 /* Debug */ = {
+		E746393D23D7ACE800AC0810 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -489,7 +489,7 @@
 			};
 			name = Debug;
 		};
-		E7D9BC652393071100DD7B12 /* Release */ = {
+		E746393E23D7ACE800AC0810 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -510,7 +510,7 @@
 			};
 			name = Release;
 		};
-		E7D9BC672393071100DD7B12 /* Debug */ = {
+		E746394023D7ACE800AC0810 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -529,7 +529,7 @@
 			};
 			name = Debug;
 		};
-		E7D9BC682393071100DD7B12 /* Release */ = {
+		E746394123D7ACE800AC0810 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -551,43 +551,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E7D9BC312393070F00DD7B12 /* Build configuration list for PBXProject "RiskGameOdds" */ = {
+		E746390A23D7ACE700AC0810 /* Build configuration list for PBXProject "RiskGameOdds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E7D9BC5E2393071100DD7B12 /* Debug */,
-				E7D9BC5F2393071100DD7B12 /* Release */,
+				E746393723D7ACE800AC0810 /* Debug */,
+				E746393823D7ACE800AC0810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E7D9BC602393071100DD7B12 /* Build configuration list for PBXNativeTarget "RiskGameOdds" */ = {
+		E746393923D7ACE800AC0810 /* Build configuration list for PBXNativeTarget "RiskGameOdds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E7D9BC612393071100DD7B12 /* Debug */,
-				E7D9BC622393071100DD7B12 /* Release */,
+				E746393A23D7ACE800AC0810 /* Debug */,
+				E746393B23D7ACE800AC0810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E7D9BC632393071100DD7B12 /* Build configuration list for PBXNativeTarget "RiskGameOddsTests" */ = {
+		E746393C23D7ACE800AC0810 /* Build configuration list for PBXNativeTarget "RiskGameOddsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E7D9BC642393071100DD7B12 /* Debug */,
-				E7D9BC652393071100DD7B12 /* Release */,
+				E746393D23D7ACE800AC0810 /* Debug */,
+				E746393E23D7ACE800AC0810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E7D9BC662393071100DD7B12 /* Build configuration list for PBXNativeTarget "RiskGameOddsUITests" */ = {
+		E746393F23D7ACE800AC0810 /* Build configuration list for PBXNativeTarget "RiskGameOddsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E7D9BC672393071100DD7B12 /* Debug */,
-				E7D9BC682393071100DD7B12 /* Release */,
+				E746394023D7ACE800AC0810 /* Debug */,
+				E746394123D7ACE800AC0810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E7D9BC2E2393070F00DD7B12 /* Project object */;
+	rootObject = E746390723D7ACE700AC0810 /* Project object */;
 }
