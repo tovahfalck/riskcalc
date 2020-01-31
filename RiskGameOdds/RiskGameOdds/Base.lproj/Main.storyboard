@@ -76,6 +76,7 @@
                         <outlet property="attackerNumber" destination="Fv4-YI-W6p" id="cZi-uB-fcn"/>
                         <outlet property="defenderNumber" destination="Qjv-85-29l" id="5yV-Ox-3JJ"/>
                         <outlet property="resultAttackerWins" destination="akP-Af-jw3" id="NCT-fn-Yvc"/>
+                        <outlet property="resultDefenderWins" destination="w2Z-my-yhb" id="d0P-xG-8jf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

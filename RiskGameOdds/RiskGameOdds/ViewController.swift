@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var defenderNumber: UITextField!
     
     @IBOutlet weak var resultAttackerWins: UITextField!
+    @IBOutlet weak var resultDefenderWins: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -27,8 +28,10 @@ class ViewController: UIViewController {
         
         //TODO: implement this correctly
         
-        let result = node.children()[0]
-        resultAttackerWins.text = "\(String(format: "%.01f", result.probability * 100))%"
+        let result1 = node.getTotalProbabilityOfWinningAttacks()
+        resultAttackerWins.text = "\(String(format: "%.01f", result1 * 100))%"
+        let result2 = node.getTotalProbabilityOfLosingAttacks()
+        resultDefenderWins.text = "\(String(format: "%.01f", result2 * 100))%"
     }
 }
 
